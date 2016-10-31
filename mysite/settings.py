@@ -40,8 +40,6 @@ INSTALLED_APPS = [
     'blog',
 ]
 
-# Default value was MIDDLEWARE. Changed to MIDDLEWARE_CLASSES since 
-# online version wouldn't get to admin page without it.
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
